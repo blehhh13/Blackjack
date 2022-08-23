@@ -51,6 +51,11 @@ button {
   font-style: italic;
 }
 
+.instruction {
+  font-style: italic;
+  padding-top: 30px;
+}
+
 @media (min-width: 550px) {
   h1 {
     font-size: 48px;
