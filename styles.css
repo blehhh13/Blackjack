@@ -4,28 +4,40 @@
   box-sizing: border-box;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  background: url(images/table.png) no-repeat;
+  background-size: cover;
+
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 h1 {
   color: goldenrod;
 }
 
+button {
+  width: 150px;
+  padding: 5px 0;
+  margin: 4px;
+
+  font-weight: bold;
+  background-color: goldenrod;
+  color: #016f32;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 #message-el {
+  font-style: italic;
 }
