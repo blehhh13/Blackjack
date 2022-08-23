@@ -1,6 +1,6 @@
 let player = {
-  name: "Asim",
-  chips: 200,
+  name: "Player",
+  chips: 100,
 };
 let cards = [];
 let sum = 0;

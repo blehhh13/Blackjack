@@ -5,10 +5,9 @@
 }
 
 body {
-  min-height: 100vh;
   background: url(images/table.png) no-repeat;
   background-size: cover;
-
+  height: 100vh;
   font-family: "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -17,20 +16,30 @@ body {
 
 .container {
   width: 80%;
-  max-width: 750px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 h1 {
   color: goldenrod;
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-decoration: underline;
+  margin: 0;
 }
 
 button {
+  font-size: 14px;
+  font-weight: bold;
+
   width: 150px;
   padding: 5px 0;
   margin: 4px;
 
-  font-weight: bold;
   background-color: goldenrod;
   color: #016f32;
   border: none;
@@ -40,4 +49,19 @@ button {
 
 #message-el {
   font-style: italic;
+}
+
+@media (min-width: 550px) {
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 15px;
+  }
 }
