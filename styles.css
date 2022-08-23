@@ -54,6 +54,7 @@ button {
 .instruction {
   font-style: italic;
   padding-top: 30px;
+  word-spacing: 3px;
 }
 
 @media (min-width: 550px) {
